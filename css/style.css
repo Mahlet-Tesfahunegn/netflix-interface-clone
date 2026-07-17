@@ -80,7 +80,7 @@ nav{
 }
 
 .hero-title{
-  font-size:55px;
+  font-size:3.45rem;
   font-weight: bold;
   max-inline-size: 19ch;
   line-height: 70px;
@@ -139,13 +139,66 @@ input::placeholder{
   line-height:1;
 }
 
+.footer{
+  height: 787px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:0 160px;
+  gap:90px;
+}
 
-    
+.footer-description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:15px;
+}
 
+.footer-description .hero-btns input{
+  width:590px;
+}
+ 
+.footer-links-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap:50px;
+  color:rgb(165, 162, 162);
+  font-size: 15px;
+}
 
+.footer-links-section a{
+  color: inherit;
+}
 
+.footer-links{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 
+.footer-links ul{
+  list-style-type: none;
+  margin:0;
+}
 
+.footer-links ul li{
+  margin-bottom:15px;
+}
+
+.footer-lang{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+
+.footer-check{
+  font-size:13.5px;
+}
 
 
 
