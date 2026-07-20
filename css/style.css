@@ -46,6 +46,8 @@ nav{
   height:600px;
   width:100%;
   position: relative;
+  background: #000000;
+  overflow: hidden;
 }
 
 
@@ -142,10 +144,11 @@ input::placeholder{
 
 .container{
   max-width: 1200px;
-  padding:2.5rem 9.3rem;
+  padding:2.2rem 9.25rem;
   display:flex;
   flex-direction:column;
   gap:1.2rem;
+  max-width: 120rem;
 }
 
 .trending-section{
@@ -252,12 +255,7 @@ input::placeholder{
   gap:1rem;
   border:1px solid none;
   border-radius: 1rem;
- background: linear-gradient(
-    135deg,
-    #1a162f,
-    #20113b,
-    #111827
-  );
+  background: linear-gradient(149.78deg, #192247 0%, #210e17 96.86%);
   flex: 0 0 230px;
   height: 328px;
   padding:1.5rem 1rem;
@@ -269,16 +267,43 @@ input::placeholder{
   font-weight: 500;
 }
 
+.faq-section{
+  width:100%;
+}
+
+.faq-section ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.faq-section ul li{
+  display: inline-flex;
+  justify-content: space-between;
+  padding:1.7rem 1.4rem;
+  width:100%;
+  background-color: rgb(46, 46, 46); 
+  margin:0;
+}
+
+.faq-question{
+  background-color: rgb(46, 46, 46);
+  font-size:25px;
+  color:white;
+  border:none;
+}
+
+.faq-section ul li span{
+  font-size:2rem;
+  font-weight:300;
+}
+
+
+
 
 .footer{
-  height: 787px;
   width:100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding:0 160px;
-  gap:90px;
 }
 
 .footer-description{
@@ -287,6 +312,7 @@ input::placeholder{
   align-items: center;
   justify-content: center;
   gap:15px;
+  margin-bottom: 70px;
 }
 
 .footer-description .hero-btns input{
@@ -299,7 +325,7 @@ input::placeholder{
   width: 100%;
   gap:50px;
   color:rgb(165, 162, 162);
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 .footer-links-section a{
@@ -308,7 +334,7 @@ input::placeholder{
 
 .footer-links{
   display: flex;
-  width: 100%;
+  width: 820px;
   justify-content: space-between;
 }
 
