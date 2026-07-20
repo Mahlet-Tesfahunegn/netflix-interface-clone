@@ -50,7 +50,6 @@ nav{
   overflow: hidden;
 }
 
-
 .hero-image{
   object-fit: cover;
   width:100%;
@@ -239,13 +238,17 @@ input::placeholder{
 }
 
 .join-title, .join-card h2{
-  font-size:1.4rem;
+  font-size:1.5rem;
   font-weight: bold;
+}
+
+.join-card h2{
+  line-height: 30px;
 }
 
 .join-cards-container{
   display:flex;
-  gap:1.2rem;
+  gap:1rem;
   width: 100%;
 }
 
@@ -258,13 +261,24 @@ input::placeholder{
   background: linear-gradient(149.78deg, #192247 0%, #210e17 96.86%);
   flex: 0 0 230px;
   height: 328px;
-  padding:1.5rem 1rem;
+  padding:1.7rem 1rem;
+  position: relative;
+  
 }
 
 .join-card p{
-  font-size:17px;
+  font-size:16.5px;
   color:rgb(197, 194, 194);
   font-weight: 500;
+  line-height: 20px;
+}
+
+.join-card img{
+  position: absolute;
+  right:0.8rem;
+  bottom: 1rem;
+  width:72px;
+  height: 72px;
 }
 
 .faq-section{
@@ -281,7 +295,7 @@ input::placeholder{
 .faq-section ul li{
   display: inline-flex;
   justify-content: space-between;
-  padding:1.7rem 1.4rem;
+  padding:1.5rem 1.4rem;
   width:100%;
   background-color: rgb(46, 46, 46); 
   margin:0;
@@ -289,7 +303,7 @@ input::placeholder{
 
 .faq-question{
   background-color: rgb(46, 46, 46);
-  font-size:25px;
+  font-size:23px;
   color:white;
   border:none;
 }
@@ -356,7 +370,6 @@ input::placeholder{
 .footer-check{
   font-size:13.5px;
 }
-
 
 
 
